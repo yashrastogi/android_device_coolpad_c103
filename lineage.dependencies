@@ -4,7 +4,7 @@
     "target_path": "kernel/coolpad/msm8976"
   },
   {
-    "repository": "proprietary_vendor_leeco",
+    "repository": "proprietary_vendor_coolpad",
     "target_path": "vendor/coolpad"
   },
   {

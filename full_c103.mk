@@ -18,9 +18,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from c106 device
-$(call inherit-product, device/coolpad/c106/device.mk)
+# Inherit from c103 device
+$(call inherit-product, device/coolpad/c103/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := c106
-PRODUCT_NAME := full_c106
+PRODUCT_DEVICE := c103
+PRODUCT_NAME := full_c103

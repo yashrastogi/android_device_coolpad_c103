@@ -15,27 +15,27 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/coolpad/c106/full_c106.mk)
+$(call inherit-product, device/coolpad/c103/full_c103.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := c106
-PRODUCT_NAME := lineage_c106
+PRODUCT_DEVICE := c103
+PRODUCT_NAME := lineage_c103
 PRODUCT_BRAND := LeEco
 PRODUCT_MANUFACTURER := LeMobile
 
 PRODUCT_GMS_CLIENTID_BASE := android-leeco
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=le_c106 \
-    PRODUCT_NAME=c106_CN \
-    PRIVATE_BUILD_DESC="c106-user 6.0.1 IIXOSOP5801910121S 44 release-keys"
+    TARGET_DEVICE=le_c103 \
+    PRODUCT_NAME=c103_CN \
+    PRIVATE_BUILD_DESC="c103-user 6.0.1 IIXOSOP5801910121S 44 release-keys"
 
-BUILD_FINGERPRINT := Letv/c106_WW/le_c106_ww:6.0.1/IIXOSOP5801910121S/44:user/release-keys
+BUILD_FINGERPRINT := Letv/c103_WW/le_c103_ww:6.0.1/IIXOSOP5801910121S/44:user/release-keys
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
 
 # Release name
-PRODUCT_RELEASE_NAME := c106
+PRODUCT_RELEASE_NAME := c103

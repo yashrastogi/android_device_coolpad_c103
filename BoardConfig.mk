@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/coolpad/c106
+DEVICE_PATH := device/coolpad/c103
 
 # Headers
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
@@ -56,7 +56,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 
 TARGET_KERNEL_SOURCE := kernel/coolpad/msm8976
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_CONFIG := lineage_c106_defconfig
+TARGET_KERNEL_CONFIG := lineage_c103_defconfig
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
@@ -292,4 +292,4 @@ TARGET_USES_WCNSS_MAC_ADDR_REV		:= true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # inherit from the proprietary version
--include vendor/coolpad/c106/BoardConfigVendor.mk
+-include vendor/coolpad/c103/BoardConfigVendor.mk
